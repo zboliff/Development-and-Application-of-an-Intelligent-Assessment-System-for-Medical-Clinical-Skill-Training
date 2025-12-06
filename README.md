@@ -21,7 +21,7 @@ dressing_change_demo/
 
 ### 1. Install Dependencies
 
-Ensure you have Python 3.8+ and PyTorch installed. Then install MMAction2 and its dependencies:
+Ensure you have Python 3.8+ and PyTorch installed. Then install MMAction2 (https://github.com/open-mmlab/mmaction2) and its dependencies:
 
 ```bash
 pip install -U openmim
@@ -31,18 +31,7 @@ mim install "mmaction2>=1.0.0"
 pip install pandas numpy
 ```
 
-### 2. Install MMAction2 Repository
-
-The configuration files rely on the MMAction2 repository structure.
-
-@misc{2020mmaction2,
-    title={OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark},
-    author={MMAction2 Contributors},
-    howpublished = {\url{https://github.com/open-mmlab/mmaction2}},
-    year={2020}
-}
-
-### 3. Download Pretrained Weights
+### 2. Download Pretrained Weights
 
 Download the TSM checkpoint required for training/inference and place it in the `dressing_change_demo` directory:
 
