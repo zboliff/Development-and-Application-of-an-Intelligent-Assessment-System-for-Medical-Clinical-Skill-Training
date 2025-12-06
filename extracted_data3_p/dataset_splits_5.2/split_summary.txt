@@ -1,0 +1,46 @@
+Dataset Splitting Summary (based on score column: 操作过程5.2)
+============================================================
+
+Support Set Selection Criteria:
+1. If video count <= 5: support set = 1 video
+2. If 5 < video count <= 10: support set = 2 videos
+3. If 10 < video count <= 20: support set = 3 videos
+4. If video count > 20: support set = 5 videos
+
+Support set: 22 videos (2.5%)
+Training set: 676 videos (77.7%)
+Test set: 172 videos (19.8%)
+Total: 870 videos
+
+Original score distribution:
+  Score 5: 1 videos (0.1%) -> Support: 1 videos
+  Score 7: 1 videos (0.1%) -> Support: 1 videos
+  Score 10: 8 videos (0.9%) -> Support: 2 videos
+  Score 12: 16 videos (1.8%) -> Support: 3 videos
+  Score 13: 33 videos (3.8%) -> Support: 5 videos
+  Score 14: 36 videos (4.1%) -> Support: 5 videos
+  Score 15: 775 videos (89.1%) -> Support: 5 videos
+
+Support set score distribution:
+  Score 5: 1 videos (4.5%)
+  Score 7: 1 videos (4.5%)
+  Score 10: 2 videos (9.1%)
+  Score 12: 3 videos (13.6%)
+  Score 13: 5 videos (22.7%)
+  Score 14: 5 videos (22.7%)
+  Score 15: 5 videos (22.7%)
+
+Training set score distribution:
+  Score 10: 5 videos (0.7%)
+  Score 12: 10 videos (1.5%)
+  Score 13: 22 videos (3.3%)
+  Score 14: 24 videos (3.6%)
+  Score 15: 615 videos (91.0%)
+
+Test set score distribution:
+  Score 10: 1 videos (0.6%)
+  Score 12: 3 videos (1.7%)
+  Score 13: 6 videos (3.5%)
+  Score 14: 7 videos (4.1%)
+  Score 15: 155 videos (90.1%)
+
